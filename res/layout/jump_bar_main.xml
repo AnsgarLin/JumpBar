@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jump_bar_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.jumpbar.BeatView
+        android:id="@+id/beatView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:barAnimateDuration="5000"
+        custom:barColor="#ef4680"
+        custom:barCount="5"
+        custom:barHeightValueCount="20"
+        custom:barHeightStartValue="5" 
+        custom:barMarginBetween="5" 
+        custom:barGradientMode="true"
+        custom:barGradientColor="#14b68e"
+        custom:barGradientColorChangeRate="0.8"/>
+
+</RelativeLayout>
